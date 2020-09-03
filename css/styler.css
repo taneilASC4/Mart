@@ -1,0 +1,68 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f7f7;
+}
+
+#container{padding:10px;}
+#container li{margin-right: 10px;}
+
+.container {
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding-right: 30px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    -webkit-box-shadow: 0px 4px 31px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 31px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 31px -10px rgba(0,0,0,0.75);
+}
+
+input[Type=text], input[Type=password] {
+    width: 100%;
+    padding: 15px;
+    padding-right: 0px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+}
+
+select{
+    width: 15px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    font-family:"Poppins", sans-serif;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select.focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+button{
+    background-color: #0eb7fe;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 8.9;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+}
+
+
+button:hover{
+    opacity: 1;
+}
